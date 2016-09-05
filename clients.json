@@ -1,0 +1,30 @@
+﻿{
+  "clients": [
+    {
+      "name": "someclient",
+      "secret": "changeme",
+      "handler": "iPassPacketHandler", // add support for late binding and fully qualified type name?
+      "remoteAddresses": [
+        {
+          "address": "127.0.0.1"
+        },
+        {
+          "address": "127.0.0.2"
+        }
+      ]
+    },
+    {
+      "name": "someOtherClient",
+      "secret": "changeme",
+      "handler": "MobileDataPacketHandler", // add support for late binding and fully qualified type name?
+      "remoteAddresses": [
+        {
+          "address": "127.0.0.6"
+        },
+        {
+          "address": "127.0.0.9"
+        }
+      ]
+    }
+  ]
+}
